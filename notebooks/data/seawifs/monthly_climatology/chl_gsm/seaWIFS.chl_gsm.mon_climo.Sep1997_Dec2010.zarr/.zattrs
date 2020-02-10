@@ -1,0 +1,12 @@
+{
+    "horiz_grid_fname": "/glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v7/grid/horiz_grid_20010402.ieeer8",
+    "lateral_dims": [
+        384,
+        320
+    ],
+    "region_mask_fname": "/glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v7/grid/region_mask_20151008.ieeei4",
+    "title": "POP_gx1v7 grid",
+    "type": "dipole",
+    "vert_grid_file": "/glade/work/mlevy/miniconda3/envs/cesm2-marbl/lib/python3.7/site-packages/pop_tools/input_templates/gx1v7_vert_grid",
+    "vertical_dims": 60
+}

@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "nlat",
+        "nlon"
+    ],
+    "coordinates": "TLAT TLONG",
+    "long_name": "basin index number (signed integers)"
+}
