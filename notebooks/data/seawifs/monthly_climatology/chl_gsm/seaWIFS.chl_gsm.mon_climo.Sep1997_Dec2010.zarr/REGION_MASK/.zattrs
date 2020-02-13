@@ -3,6 +3,6 @@
         "nlat",
         "nlon"
     ],
-    "coordinates": "TLAT TLONG",
+    "coordinates": "TLONG TLAT",
     "long_name": "basin index number (signed integers)"
 }

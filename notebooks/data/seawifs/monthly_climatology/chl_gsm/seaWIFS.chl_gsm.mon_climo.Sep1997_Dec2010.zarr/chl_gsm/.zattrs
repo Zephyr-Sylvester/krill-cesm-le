@@ -4,7 +4,7 @@
         "nlat",
         "nlon"
     ],
-    "coordinates": "TLAT TLONG",
+    "coordinates": "TLONG TLAT",
     "display_max": 20.0,
     "display_min": 0.009999999776482582,
     "display_scale": "log",

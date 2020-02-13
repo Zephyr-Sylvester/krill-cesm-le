@@ -3,7 +3,7 @@
         "nlat",
         "nlon"
     ],
-    "coordinates": "TLAT TLONG",
+    "coordinates": "TLONG TLAT",
     "long_name": "x-spacing centered at T points",
     "units": "cm"
 }
