@@ -1,0 +1,12 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "length",
+        "member_id",
+        "nlat",
+        "nlon"
+    ],
+    "coordinates": "TLONG TAREA ULAT TLAT ULONG KMT",
+    "long_name": "Daily growth rate",
+    "units": "mm d$^{-1}$"
+}
