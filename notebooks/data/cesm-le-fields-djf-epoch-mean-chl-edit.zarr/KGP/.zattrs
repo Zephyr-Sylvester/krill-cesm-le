@@ -6,7 +6,7 @@
         "nlat",
         "nlon"
     ],
-    "coordinates": "ULAT TLAT TAREA KMT ULONG TLONG",
+    "coordinates": "TLONG ULONG TLAT ULAT KMT TAREA",
     "long_name": "Daily growth rate",
     "units": "mm d$^{-1}$"
 }

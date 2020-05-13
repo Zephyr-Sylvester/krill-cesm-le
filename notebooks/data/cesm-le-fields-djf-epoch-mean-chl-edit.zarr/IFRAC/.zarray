@@ -1,9 +1,9 @@
 {
     "chunks": [
         1,
-        1,
-        93,
-        320
+        9,
+        47,
+        160
     ],
     "compressor": {
         "blocksize": 0,
