@@ -6,7 +6,7 @@
         "nlon"
     ],
     "cell_methods": "time: mean",
-    "coordinates": "KMT ULAT ULONG TAREA TLAT TLONG",
+    "coordinates": "TAREA TLONG ULONG KMT TLAT ULAT",
     "grid_loc": "2110",
     "long_name": "Ice Fraction from Coupler",
     "units": "fraction"
