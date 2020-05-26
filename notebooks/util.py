@@ -7,7 +7,7 @@ import pandas as pd
 
 
 project_tmpdir = '/glade/p/cgd/oce/projects/krill-cesm-le/data'
-project_tmpdir_z = '/glade/scratch/zephyrs/data-stash'
+#project_tmpdir = '/glade/scratch/zephyrs/krill-cesm-le'
 
 
 def write_ds_out(dso, file_out):
