@@ -2,7 +2,9 @@ import os
 import shutil
 
 import numpy as np
+import dask
 import xarray as xr
+
 import pandas as pd
 
 
@@ -37,13 +39,13 @@ def pop_add_cyclic(ds):
     tlon = np.where(np.greater_equal(tlon, min(tlon[:,0])), tlon-360., tlon)    
     lon  = np.concatenate((tlon, tlon + 360.), 1)
     lon = lon[:, xL:xR]
-
-    if ni == 320:
+    
+    if ni == 320 and nj == 384:
         lon[367:-3, 0] = lon[367:-3, 0] + 360.        
     lon = lon - 360.
     
     lon = np.hstack((lon, lon[:, 0:1] + 360.))
-    if ni == 320:
+    if ni == 320 and nj == 384:
         lon[367:, -1] = lon[367:, -1] - 360.
 
     #-- trick cartopy into doing the right thing:
@@ -301,4 +303,3 @@ def compute_kgp(ds, length):
     kgp.attrs = {'units': 'mm d$^{-1}$', 'long_name': 'Daily growth rate'}
     ds['KGP'] = kgp
     return ds
-
