@@ -1,0 +1,246 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "KMT/.zarray": {
+            "chunks": [
+                29,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "KMT/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "k Index of Deepest Grid Cell on T Grid"
+        },
+        "TAREA/.zarray": {
+            "chunks": [
+                29,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "TAREA/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "area of T cells",
+            "units": "cm^2"
+        },
+        "anom/.zarray": {
+            "chunks": [
+                29,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "anom/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "Daily sea surface temperature anomalies",
+            "units": "Celsius",
+            "valid_max": 1200,
+            "valid_min": -1200
+        },
+        "err/.zarray": {
+            "chunks": [
+                29,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "err/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "Estimated error standard deviation of analysed_sst",
+            "units": "Celsius",
+            "valid_max": 1000,
+            "valid_min": 0
+        },
+        "ice/.zarray": {
+            "chunks": [
+                29,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "ice/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "Sea ice concentration",
+            "units": "%",
+            "valid_max": 100,
+            "valid_min": 0
+        },
+        "region/.zarray": {
+            "chunks": [
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U17",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3
+            ],
+            "zarr_format": 2
+        },
+        "region/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "region"
+            ]
+        },
+        "sst/.zarray": {
+            "chunks": [
+                29,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "sst/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "Daily sea surface temperature",
+            "units": "Celsius",
+            "valid_max": 4500,
+            "valid_min": -300
+        },
+        "time/.zarray": {
+            "chunks": [
+                29
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                29
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
