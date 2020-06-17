@@ -74,6 +74,41 @@
             "long_name": "Ice Fraction from Coupler",
             "units": "fraction"
         },
+        "Jint_100m_DIC/.zarray": {
+            "chunks": [
+                180,
+                34,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                180,
+                34,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "Jint_100m_DIC/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "member_id",
+                "region"
+            ],
+            "cell_methods": "time: mean",
+            "grid_loc": "2110",
+            "long_name": "Dissolved Inorganic Carbon Source Sink Term Vertical Integral, 0-100m",
+            "units": "mmol/m^3 cm/s"
+        },
         "KGP/.zarray": {
             "chunks": [
                 90,
@@ -109,6 +144,41 @@
             ],
             "long_name": "Daily growth rate",
             "units": "mm d$^{-1}$"
+        },
+        "NPP/.zarray": {
+            "chunks": [
+                180,
+                34,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                180,
+                34,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "NPP/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "member_id",
+                "region"
+            ],
+            "cell_methods": "time: mean",
+            "grid_loc": "3114",
+            "long_name": "NPP",
+            "units": "mmol/m^3/s cm"
         },
         "SST/.zarray": {
             "chunks": [
@@ -208,7 +278,7 @@
                 "id": "blosc",
                 "shuffle": 1
             },
-            "dtype": "<U17",
+            "dtype": "<U14",
             "fill_value": null,
             "filters": null,
             "order": "C",
