@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "region"
+    ],
+    "long_name": "area of T cells",
+    "units": "cm^2"
+}

@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "region"
+    ],
+    "long_name": "Daily sea surface temperature anomalies",
+    "units": "Celsius",
+    "valid_max": 1200,
+    "valid_min": -1200
+}
