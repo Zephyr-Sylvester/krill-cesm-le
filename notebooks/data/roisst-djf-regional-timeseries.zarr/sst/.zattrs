@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "region"
+    ],
+    "long_name": "Daily sea surface temperature",
+    "units": "Celsius",
+    "valid_max": 4500,
+    "valid_min": -300
+}
