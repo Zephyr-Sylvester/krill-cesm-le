@@ -1,0 +1,155 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "KMT/.zarray": {
+            "chunks": [
+                12,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "KMT/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "k Index of Deepest Grid Cell on T Grid"
+        },
+        "TAREA/.zarray": {
+            "chunks": [
+                12,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "TAREA/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "long_name": "area of T cells",
+            "units": "cm^2"
+        },
+        "chl_gsm/.zarray": {
+            "chunks": [
+                12,
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12,
+                3
+            ],
+            "zarr_format": 2
+        },
+        "chl_gsm/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "region"
+            ],
+            "display_max": 20.0,
+            "display_min": 0.009999999776482582,
+            "display_scale": "log",
+            "long_name": "Chlorophyll Concentration, GSM model",
+            "reference": "Maritorena S., D.A. Siegel and A. Peterson, Optimization of a Semi-Analytical Ocean Color Model for Global Scale Applications, Applied  Optics,  41(15): 2705-2714, 2002.",
+            "standard_name": "mass_concentration_chlorophyll_concentration_in_sea_water",
+            "units": "mg m^-3",
+            "valid_max": 100.0,
+            "valid_min": 0.0010000000474974513
+        },
+        "region/.zarray": {
+            "chunks": [
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U17",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3
+            ],
+            "zarr_format": 2
+        },
+        "region/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "region"
+            ]
+        },
+        "time/.zarray": {
+            "chunks": [
+                12
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                12
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
