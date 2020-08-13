@@ -1,0 +1,13 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "epoch",
+        "length",
+        "member_id",
+        "nlat",
+        "nlon"
+    ],
+    "coordinates": "TAREA ULONG KMT TLAT ULAT TLONG",
+    "long_name": "Daily growth rate",
+    "notes": "computed using raw model field",
+    "units": "mm d$^{-1}$"
+}
