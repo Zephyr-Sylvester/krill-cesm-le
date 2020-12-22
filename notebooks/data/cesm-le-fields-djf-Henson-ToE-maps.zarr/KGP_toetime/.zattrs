@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "nlat",
+        "nlon"
+    ],
+    "coordinates": "KMT length ULONG TLONG TLAT TAREA ULAT",
+    "long_name": "Daily growth rate",
+    "notes": "computed using raw model field",
+    "units": "mm d$^{-1}$"
+}
