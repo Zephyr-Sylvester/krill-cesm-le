@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "region"
+    ],
+    "cell_methods": "time: mean",
+    "coordinates": "length",
+    "grid_loc": "3114",
+    "long_name": "Surface chlorophyll",
+    "units": "mg/m^3"
+}
